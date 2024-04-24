@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 上次更新于：2023-03-30 14:11:26
+## 上次更新于：2024年04月24日23:41:16
 #---------------------------------------------------#
 
 mixed-port: 7890
@@ -12,7 +12,7 @@ secret: ''
 proxy-providers:
   myproxy:
     type: http
-    url: https://XXX   #粘贴 Proxy Provider Converter 提供的链接
+    url: http://sub.store/download/cnix?target=Clash  #粘贴 Proxy Provider Converter 提供的链接
     interval: 172800
     path: ./myproxy.yaml
     health-check:
