@@ -19,6 +19,7 @@ proxy-providers:
       enable: true
       interval: 600
       # lazy: true
+      url: http://www.gstatic.com/generate_204
 
 proxies:
 proxy-groups:
@@ -172,21 +173,21 @@ rule-providers:
   icloud:
     type: http
     behavior: domain
-    url: "http://m.kiroe.cn/sub/clash-sub/ruleset/icloud.yaml"
+    url: "https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/icloud.yaml"
     path: ./ruleset/icloud.yaml
     interval: 86400
 
   apple:
     type: http
     behavior: domain
-    url: "http://m.kiroe.cn/sub/clash-sub/ruleset/apple.yaml"
+    url: "https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/apple.yaml"
     path: ./ruleset/apple.yaml
     interval: 86400
 
   microsoft:
     type: http
     behavior: domain
-    url: "http://m.kiroe.cn/sub/clash-sub/ruleset/microsoft.yaml"
+    url: "https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/microsoft.yaml"
     path: ./ruleset/microsoft.yaml
     interval: 86400
 
@@ -194,35 +195,35 @@ rule-providers:
   steam:
     type: http
     behavior: domain
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/steam.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/steam.yaml
     path: ./ruleset/steam.yaml
     interval: 86400
 
   steamCN:
     type: http
     behavior: domain
-    url: 'http://m.kiroe.cn/sub/clash-sub/ruleset/steamCN.yaml'
+    url: 'https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/steamCN.yaml'
     path: ./ruleset/steamCN.yaml
     interval: 86400
     
   youtube:
     type: http
     behavior: domain
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/youtube.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/youtube.yaml
     path: ./ruleset/youtube.yaml
     interval: 86400
 
   google:
     type: http
     behavior: domain
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/google.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/google.yaml
     path: ./ruleset/google.yaml
     interval: 86400
 
   jetbrains:
     type: http
     behavior: domain
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/jetbrains.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/jetbrains.yaml
     path: ./ruleset/jetbrains.yaml
     interval: 86400
   
@@ -231,7 +232,7 @@ rule-providers:
   private:
     type: http
     behavior: domain
-    url: "http://m.kiroe.cn/sub/clash-sub/ruleset/private.yaml"
+    url: "https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/private.yaml"
     path: ./ruleset/private.yaml
     interval: 86400
     
@@ -239,7 +240,7 @@ rule-providers:
   lancidr:
     type: http
     behavior: ipcidr
-    url: "http://m.kiroe.cn/sub/clash-sub/ruleset/lancidr.yaml"
+    url: "https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/lancidr.yaml"
     path: ./ruleset/lancidr.yaml
     interval: 86400
 
@@ -248,42 +249,42 @@ rule-providers:
     interval: 86400
     type: http
     path: ./ruleset/disney.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/disney.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/disney.yaml
 
   netflix:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/netflix.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/netflix.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/netflix.yaml
 
   bahamut:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/bahamut.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/bahamut.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/bahamut.yaml
 
   bilibili:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/bilibili.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/bilibili.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/bilibili.yaml
 
   bing:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/bing.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/bing.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/bing.yaml
 
   openai:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/openai.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/openai.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/openai.yaml
     
 
   jd:
@@ -291,21 +292,21 @@ rule-providers:
     interval: 86400
     type: http
     path: ./ruleset/jd.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/jd.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/jd.yaml
     
   alibaba:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/alibaba.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/alibaba.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/alibaba.yaml
 
   hbo:
     behavior: domain
     interval: 86400
     type: http
     path: ./ruleset/hbo.yaml
-    url: http://m.kiroe.cn/sub/clash-sub/ruleset/hbo.yaml
+    url: https://raw.githubusercontent.com/LSauce/RuleSet/master/ruleSet/hbo.yaml
     
 
 
