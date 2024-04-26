@@ -1291,6 +1291,8 @@ rules:
 
   - DOMAIN-SUFFIX,redisfans.com,DIRECT
 
+  - IP-CIDR,52.137.14.60/32,DIRECT,no-resolve
+
   - GEOIP,CN,DIRECT
 
   - MATCH,其他
