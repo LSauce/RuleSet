@@ -1287,6 +1287,8 @@ rules:
 
   - DOMAIN-SUFFIX,gtaweb.eu,DIRECT
 
+  - DOMAIN-SUFFIX,ronki.moe,DIRECT
+
   - DOMAIN-SUFFIX,programmercarl.com,DIRECT
 
   - DOMAIN-SUFFIX,redisfans.com,DIRECT
