@@ -5,6 +5,7 @@
 payload:
 - "+.oaistatic.com"
 - "+.openai.com"
+- "+.chatgpt.com"
 - "chat.openai.com.cdn.cloudflare.net"
 - "o33249.ingest.sentry.io"
 - "openaiapi-site.azureedge.net"
